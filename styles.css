@@ -96,3 +96,59 @@ button {
     border-radius: 25px;
 }
 
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 350px;
+    padding: 50px;
+}
+
+.section-three.content {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.section-three.p {
+    font-style: italic;
+    font-size:28px;
+}
+
+.section-three.quote {
+    align-self:flex-end;
+}
+
+.section-four {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+
+.section-four.content {
+    width: 800px;
+    height:200px;
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+}
+
+.section-four.left {
+    display:flex;
+    flex-direction: column;
+}
+
+.section-four.title,
+.section-four.body {
+    border: 1px solid red;
+    display:inline-block;
+    line-height: 10px;
+}
+
+.section-four.button {
+    width: 100px;
+    height:40px;
+}
+
